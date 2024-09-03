@@ -1,15 +1,15 @@
 #include <iostream>
 
-using namespace std;//we can use names and objects in standard ouput
+using namespace std;//we can use names and objects
 
 int main()
 {
 
     int id, password, savedID, savedPass;//declaration of integers
     char choice, choice2;//declare my choice as character
-    double balance = 0;//we declare my balance as a double
+    double balance = 0;//declare my balance as a double
 
-    cout << "Hi! Welcome to the ATM Machine! \n\n";//first output
+    cout << "Hi! Welcome to the ATM Machine! \n\n";//my first output
 
     do {
         cout << "Please select an option from the menu below: \n\n";
@@ -18,8 +18,8 @@ int main()
         cout << "q -> Quit\n";
         cin >> choice;
 
-        switch (choice) {//we use switch for different blocks in code
-            case 'c'://block 1
+        switch (choice) {// use switch for different blocks in code
+            case 'c':
                 cout << "Please enter your user id: ";
                 cin >> savedID;
                 cout << "Please enter your password: ";
@@ -27,7 +27,7 @@ int main()
                 cout << "Thank You! Your account has been created!\n";
                 break;
 
-            case 'q'://block 2
+            case 'q':
                 cout << "Thanks for visiting!";
                 break;
 
